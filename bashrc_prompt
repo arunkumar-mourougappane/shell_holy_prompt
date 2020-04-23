@@ -5,9 +5,11 @@ BASHRC_GIT_COLOR_CONFIG=".bashrc_gitcolor"
 
 
 if [ -f "${BASHRC_SSH_AGENT_CONFIG}" ]
+then
     source "${BASHRC_SSH_AGENT_CONFIG}"
 fi
 
 if [ -f "${BASHRC_GIT_COLOR_CONFIG}" ]
+then
     source "${BASHRC_GIT_COLOR_CONFIG}"
 fi
