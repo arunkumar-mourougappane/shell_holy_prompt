@@ -1,8 +1,5 @@
-# Example Configuration for Options Trading Script
-# Copy this file to config.json and fill in your values
-# DO NOT commit config.json with real credentials!
-
 {
+  "_comment": "Example Configuration for Options Trading Script - Copy this file to config.json and fill in your values. DO NOT commit config.json with real credentials!",
   "api": {
     "client_id": "YOUR_CLIENT_ID_HERE",
     "account_id": "YOUR_ACCOUNT_ID_HERE",
