@@ -1,0 +1,11 @@
+# Options Trading Script Dependencies
+# For TD Ameritrade/ThinkorSwim API integration
+
+# HTTP requests
+requests>=2.31.0
+
+# Secure credential storage
+keyring>=24.0.0
+
+# Optional: Better keyring backends
+secretstorage>=3.3.3; sys_platform == 'linux'
